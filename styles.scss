@@ -106,12 +106,23 @@ body {
 	&__town {
 		padding: 5px;
 		display: block;
-		font-size: 20px;
+		font-size: 50px;
+		color: white;
+		text-align: center;
+		background: none;
+		&::placeholder {
+			color: inherit;
+		}
 	}
 	&__button {
 		margin-top: 15px;
+		font-size: 20px;
 		display: block;
-		padding: 5px;
+		padding: 10px 25px;
+		transition: 0.2s linear all;
+		&:hover {
+			transform: scale(1.05);
+		}
 	}
 }
 .main {
