@@ -1,0 +1,163 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+body {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	display: flex;
+	width: 400px;
+	height: 350px;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+}
+.popup {
+	background-color: blueviolet;
+	width: 100%;
+	height: 100%;
+	transition: 0.2s linear all;
+	position: absolute;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	&__town {
+		padding: 5px;
+		display: block;
+		font-size: 20px;
+	}
+	&__button {
+		margin-top: 15px;
+		display: block;
+		padding: 5px;
+	}
+}
+.main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+	color: white;
+	align-items: center;
+}
+.popup-hide {
+	transform: translateX(-100%);
+	opacity: 0;
+	visibility: hidden;
+}
+.city-name {
+	font-size: 40px;
+	display: block;
+	border: 1px solid white;
+	padding: 5px 25px;
+	text-align: center;
+}
+.city-name:hover {
+	cursor: pointer;
+}
+.weather-img {
+	margin: 10px 0;
+}
+.weather-desc {
+	font-size: 25px;
+}
+.weather-temp {
+	font-size: 40px;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.weather-country {
+	font-size: 25px;
+	margin: 10px 0;
+}
+.weather-time {
+	font-size: 25px;
+}
+.error-active {
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: red;
+}
