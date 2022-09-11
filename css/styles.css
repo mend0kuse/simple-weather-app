@@ -146,7 +146,8 @@ body {
 .popup__town {
   padding: 5px;
   display: block;
-  font-size: 50px;
+  font-size: 40px;
+  max-width: 350px;
   color: white;
   text-align: center;
   background: none;
@@ -154,18 +155,22 @@ body {
 
 .popup__town::-webkit-input-placeholder {
   color: inherit;
+  font-size: 30px;
 }
 
 .popup__town:-ms-input-placeholder {
   color: inherit;
+  font-size: 30px;
 }
 
 .popup__town::-ms-input-placeholder {
   color: inherit;
+  font-size: 30px;
 }
 
 .popup__town::placeholder {
   color: inherit;
+  font-size: 30px;
 }
 
 .popup__button {
