@@ -146,6 +146,7 @@ body {
 .popup__town {
   padding: 5px;
   display: block;
+  text-align: center;
   font-size: 20px;
 }
 
