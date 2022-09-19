@@ -1,3 +1,5 @@
 #Simple weather app
 
-https://weatherstack.com/documentation#language_parameter
+#Закончилось число запросов к API))
+
+https://weatherstack.com
