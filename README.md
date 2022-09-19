@@ -1,5 +1,5 @@
-#Simple weather app
+Simple weather app
 
-#Закончилось число запросов к API))
+Закончилось число запросов к API))
 
 https://weatherstack.com
